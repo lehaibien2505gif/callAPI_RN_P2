@@ -53,8 +53,6 @@ class App extends React.Component {
               <Text style={styles.text}> {item.name.first + " " + item.name.last} </Text>
             </View>
 
-
-
           </View>
 
         )}
@@ -62,8 +60,6 @@ class App extends React.Component {
 
     );
   };
-
-
 };
 
 const styles = StyleSheet.create({
@@ -95,8 +91,6 @@ const styles = StyleSheet.create({
     borderRadius: 100
     // padding: 5
   }
-
-
 });
 
 export default App;
